@@ -15,8 +15,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="flex flex-row py-4">
-          <Link className="text-bitcoin-orange self-center text-7xl" href="/">
+        <header className="flex flex-row px-8 py-4">
+          <Link className="self-center text-bitcoin-orange text-7xl" href="/">
             <FaBitcoin />
           </Link>
         </header>
