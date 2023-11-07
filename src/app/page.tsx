@@ -2,6 +2,7 @@ import { clsx } from 'clsx';
 import Link from 'next/link';
 import type { DetailedHTMLProps, HTMLAttributes } from 'react';
 import { FaBitcoin } from 'react-icons/fa';
+import { SectionWithGutters } from './components/SectionWithGutters';
 
 export default function Home() {
   return (
@@ -125,12 +126,3 @@ const StepCard: React.FC<DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLD
 const StepNumber: React.FC<
   DetailedHTMLProps<HTMLAttributes<HTMLParagraphElement>, HTMLParagraphElement>
 > = (props) => <p {...props} className={clsx(props.className, 'bg text-center')} />;
-
-const SectionWithGutters: React.FC<DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement>> = (
-  props
-) => (
-  <section
-    {...props}
-    className={clsx(props.className, 'flex-grow items-center px-4 py-8 md:px-0')}
-  />
-);
