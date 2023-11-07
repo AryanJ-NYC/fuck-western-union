@@ -8,9 +8,6 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center">
       <SectionWithGutters className="flex flex-col gap-y-8 max-w-2xl">
-        <span className="text-bitcoin-orange self-center text-9xl">
-          <FaBitcoin />
-        </span>
         <div className="flex flex-col gap-y-2">
           <h1 className="text-center text-4xl font-bold">
             Use Bitcoin to send money to your friends and family.
