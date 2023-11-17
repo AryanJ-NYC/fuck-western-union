@@ -6,6 +6,6 @@ export const SectionWithGutters: React.FC<
 > = (props) => (
   <section
     {...props}
-    className={clsx(props.className, 'flex-grow items-center px-4 py-16 md:px-0')}
+    className={clsx(props.className, 'flex-grow items-center px-4 py-16 lg:px-0')}
   />
 );
