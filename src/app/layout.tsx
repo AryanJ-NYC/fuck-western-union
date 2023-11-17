@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import type { Metadata } from 'next';
+import { FaInstagram, FaTwitter } from 'react-icons/fa';
 import { Inter } from 'next/font/google';
 import logo from '../../public/imgs/logo.png';
 import './globals.css';
@@ -28,6 +29,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </Link>
         </header>
         {children}
+        <footer className="flex justify-end px-8 py-4">
+          <div className="flex gap-x-4 text-xl">
+            <a href="https://instagram.com/FuckWesternUnion" rel="noreferrer" target="_blank">
+              <FaInstagram />
+            </a>
+            <a href="https://x.com/FckWesternUnion" rel="noreferrer" target="_blank">
+              <FaTwitter />
+            </a>
+          </div>
+        </footer>
       </body>
     </html>
   );
