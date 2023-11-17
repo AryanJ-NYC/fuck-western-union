@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import logo from '../../public/logo.png';
+import logo from '../../public/imgs/logo.png';
 import './globals.css';
 import Link from 'next/link';
 
@@ -19,7 +19,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={inter.className}>
         <header className="flex justify-center sm:justify-start px-8 pt-4 w-full">
           <Link className="flex justify-center" href="/">
-            <Image alt="logo" className="object-contain h-80 sm:h-44 w-fit" src={logo} />
+            <Image
+              alt="logo"
+              className="object-contain h-80 sm:h-44 w-fit"
+              placeholder="blur"
+              src={logo}
+            />
           </Link>
         </header>
         {children}

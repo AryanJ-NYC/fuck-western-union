@@ -1,7 +1,11 @@
 import { clsx } from 'clsx';
 import Link from 'next/link';
 import type { DetailedHTMLProps, HTMLAttributes } from 'react';
+import bitcoinIsCheaper from '../../public/imgs/bitcoin-is-cheaper.png';
+import bitcoinIsFaster from '../../public/imgs/bitcoin-is-faster.png';
+import bitcoinIsAccessible from '../../public/imgs/bitcoin-is-accessible.png';
 import { SectionWithGutters } from './components/SectionWithGutters';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -24,9 +28,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 max-w-5xl gap-12">
           <StepCard>
-            <p className="text-center text-lg">
-              Bitcoin is <strong>cheaper</strong>
-            </p>
+            <Image src={bitcoinIsCheaper} alt="Bitcoin is cheaper" placeholder="blur" />
             <p>
               Sending money through Western Union or MoneyGram can cost you a staggering $35 on a
               mere $200 transfer – a whopping 17.5%! With Bitcoin, enjoy cost-effective transfers
@@ -34,9 +36,7 @@ export default function Home() {
             </p>
           </StepCard>
           <StepCard>
-            <p className="text-center text-lg">
-              Bitcoin is <strong>faster</strong>
-            </p>
+            <Image src={bitcoinIsFaster} alt="Bitcoin is faster" placeholder="blur" />
             <p>
               Western Union and MoneyGram: Domestic transfers take up to a day, international ones
               up to five business days.
@@ -44,9 +44,7 @@ export default function Home() {
             <p>Bitcoin: Near-instant in 10 minutes, even instant with Lightning Network</p>
           </StepCard>
           <StepCard>
-            <p className="text-center text-lg">
-              Bitcoin is <strong>more accessible</strong>
-            </p>
+            <Image src={bitcoinIsAccessible} alt="Bitcoin is more accessible" placeholder="blur" />
             <p>
               Bitcoin breaks down barriers, providing access to financial services that were once
               out of reach. No banks, no borders, just seamless global transactions at your
