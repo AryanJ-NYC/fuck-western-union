@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google';
 import logo from '../../public/imgs/logo.png';
 import './globals.css';
 import Link from 'next/link';
+import clsx from 'clsx';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,12 +18,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <header className="flex justify-center sm:justify-start px-8 pt-4 w-full">
-          <Link className="flex justify-center" href="/">
+      <body className={clsx(inter.className, 'bg-farhan-black text-white')}>
+        <header className="flex justify-center pt-8 w-full">
+          <Link href="/">
             <Image
               alt="logo"
-              className="object-contain h-80 sm:h-44 w-fit"
+              className="object-contain h-64 sm:h-44 w-fit"
               placeholder="blur"
               src={logo}
             />
@@ -30,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         {children}
         <footer className="flex justify-end px-8 py-4">
-          <div className="flex gap-x-4 text-xl">
+          <div className="flex gap-x-6 text-3xl">
             <a href="https://instagram.com/FuckWesternUnion" rel="noreferrer" target="_blank">
               <FaInstagram />
             </a>

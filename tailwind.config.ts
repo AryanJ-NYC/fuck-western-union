@@ -8,7 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: { 'bitcoin-orange': '#f2a900', 'wu-yellow': '#FFDD00' },
+      colors: {
+        'bitcoin-orange': '#f2a900',
+        'body-black': '#262626',
+        'farhan-black': '#222',
+        'mg-red': '#c4211a',
+        'wu-yellow': '#FFDD00',
+      },
     },
   },
   plugins: [],
