@@ -17,10 +17,8 @@ const LearnMore = () => {
           </h2>
           <LearnMoreList>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                1
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>1</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Choose an Exchange</p>
                 <p className="font-light">
                   Find a reputable cryptocurrency exchange that suits your needs. Popular platforms
@@ -30,10 +28,8 @@ const LearnMore = () => {
               </div>
             </div>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                2
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>2</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Create an Account</p>
                 <p className="font-light">
                   Sign up and verify your identity on the chosen exchange. This step ensures
@@ -42,10 +38,8 @@ const LearnMore = () => {
               </div>
             </div>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                3
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>3</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Deposit Funds</p>
                 <p className="font-light">
                   Link your bank account, credit card, or use other accepted payment methods to
@@ -54,10 +48,8 @@ const LearnMore = () => {
               </div>
             </div>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                4
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>4</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Place an Order</p>
                 <p className="font-light">
                   Navigate to the trading section, select Bitcoin (BTC), and place your order. You
@@ -79,10 +71,8 @@ const LearnMore = () => {
           </h2>
           <LearnMoreList>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                1
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>1</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Withdraw Bitcoin</p>
                 <p className="font-light">
                   Navigate to the withdrawal or send section of your exchange. Select Bitcoin (BTC)
@@ -91,10 +81,8 @@ const LearnMore = () => {
               </div>
             </div>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                2
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>2</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Input Recipient&apos;s Wallet Address</p>
                 <p className="font-light">
                   Input your loved one&apos;s Bitcoin wallet address. It&apos;s essential to ensure
@@ -103,10 +91,8 @@ const LearnMore = () => {
               </div>
             </div>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                3
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>3</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Specify Amount</p>
                 <p className="font-light">
                   Enter the amount of Bitcoin you wish to send to your friend or family member.
@@ -115,10 +101,8 @@ const LearnMore = () => {
               </div>
             </div>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                4
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>4</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Review and Confirm</p>
                 <p className="font-light">
                   Review all the details, including the destination wallet address and the amount.
@@ -140,10 +124,8 @@ const LearnMore = () => {
           </h2>
           <LearnMoreList className="md:!grid-rows-4">
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                1
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>1</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Access a Local Exchange</p>
                 <p className="font-light">
                   Advise your friend to find a reputable local cryptocurrency exchange in their
@@ -152,10 +134,8 @@ const LearnMore = () => {
               </div>
             </div>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                2
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>2</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Create an Account</p>
                 <p className="font-light">
                   They&apos;ll need to sign up and complete any necessary identity verification on
@@ -164,10 +144,8 @@ const LearnMore = () => {
               </div>
             </div>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                3
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>3</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Receive Bitcoin</p>
                 <p className="font-light">
                   Instruct them to transfer the Bitcoin from their wallet to their account on the
@@ -176,10 +154,8 @@ const LearnMore = () => {
               </div>
             </div>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                4
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>4</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Place a Sell Order</p>
                 <p className="font-light">
                   Your friend should navigate to the trading section and place a sell order for
@@ -189,10 +165,8 @@ const LearnMore = () => {
               </div>
             </div>
             <div className="flex gap-x-4">
-              <p className="h-8 w-8 flex justify-center items-center rounded-full bg-farhan-black text-white text-xl">
-                5
-              </p>
-              <div className="flex flex-col gap-y-1 max-w-xs">
+              <LearnMoreListItem>5</LearnMoreListItem>
+              <div className="flex flex-col gap-y-1">
                 <p className="font-semibold text-xl">Withdraw to Bank</p>
                 <p className="font-light">
                   Once the sale is complete, advise your friend to withdraw the local currency to
@@ -243,6 +217,18 @@ const LearnMoreList = (
     {...props}
     className={clsx(
       'gap-8 grid md:grid-flow-col grid-cols-1 md:grid-cols-2 md:grid-rows-3 max-w-3xl',
+      props.className
+    )}
+  />
+);
+
+const LearnMoreListItem = (
+  props: React.DetailedHTMLProps<React.HTMLAttributes<HTMLParagraphElement>, HTMLParagraphElement>
+) => (
+  <p
+    {...props}
+    className={clsx(
+      'h-8 w-8 flex flex-shrink-0 justify-center items-center rounded-full bg-farhan-black text-white text-xl',
       props.className
     )}
   />
