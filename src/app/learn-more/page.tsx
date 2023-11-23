@@ -7,9 +7,9 @@ import sendBitcoinSvg from '../../../public/imgs/send-bitcoin.svg';
 
 const LearnMore = () => {
   return (
-    <div className="flex flex-col items-center gap-y-12 py-4">
+    <div className="flex flex-col items-center gap-y-32 py-4">
       <h1 className="font-bold text-center text-4xl tracking-wider">Learn More</h1>
-      <div className="flex flex-col gap-y-24">
+      <div className="flex flex-col gap-y-28">
         <LearnMoreSection>
           <LearnMoreNumber className="text-mg-red">1</LearnMoreNumber>
           <h2 className="font-bold text-3xl text-center text-farhan-black tracking-wide">
@@ -175,7 +175,7 @@ const LearnMore = () => {
               </div>
             </div>
             <Image
-              alt="Man with Bitcoin in his shopping cart"
+              alt="A Bitcoin logo with cash in front of it"
               className="row-span-2"
               src={bitcoinToCashSvg}
             />
@@ -192,7 +192,7 @@ const LearnMoreNumber = (
   <p
     {...props}
     className={clsx(
-      'absolute bg-white flex justify-center items-center rounded-full -left-12 shadow-2xl -top-12 w-24 h-24 text-7xl font-semibold',
+      'absolute bg-white flex justify-center items-center rounded-full self-center lg:-left-12 shadow-2xl -top-12 w-24 h-24 text-7xl font-semibold',
       props.className
     )}
   />
@@ -205,7 +205,7 @@ const LearnMoreSection: React.FC<
     {...props}
     className={clsx(
       props.className,
-      'bg-wu-yellow flex flex-col gap-y-8 max-w-5xl p-8 relative rounded-tr-3xl rounded-bl-3xl text-body-black'
+      'bg-wu-yellow flex flex-col gap-y-8 max-w-5xl px-8 py-24 md:py-16 relative rounded-tr-3xl rounded-bl-3xl text-body-black'
     )}
   />
 );
@@ -216,7 +216,7 @@ const LearnMoreList = (
   <div
     {...props}
     className={clsx(
-      'gap-8 grid md:grid-flow-col grid-cols-1 md:grid-cols-2 md:grid-rows-3 max-w-3xl',
+      'gap-8 grid md:grid-flow-col grid-cols-1 md:grid-cols-2 md:grid-rows-3 justify-items-center max-w-3xl',
       props.className
     )}
   />
