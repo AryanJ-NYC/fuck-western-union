@@ -1,11 +1,11 @@
-import Image from 'next/image';
-import type { Metadata } from 'next';
-import { FaInstagram, FaTwitter } from 'react-icons/fa';
-import { Inter } from 'next/font/google';
-import logo from '../../public/imgs/logo.png';
-import './globals.css';
-import Link from 'next/link';
 import clsx from 'clsx';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FaInstagram, FaTwitter } from 'react-icons/fa';
+import logo from '../../public/imgs/logo.svg';
+import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -21,12 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={clsx(inter.className, 'bg-farhan-black text-white')}>
         <header className="flex justify-center pt-8 w-full">
           <Link href="/">
-            <Image
-              alt="logo"
-              className="object-contain h-64 sm:h-44 w-fit"
-              placeholder="blur"
-              src={logo}
-            />
+            <Image alt="logo" className="object-contain h-64 sm:h-44 w-fit" src={logo} />
           </Link>
         </header>
         {children}
